@@ -41,15 +41,15 @@ Design the page as per the image
 
 ### Home Page
 
-![Image Not Found](/images/SampleOutputScreen.PNG)
+![Image Not Found](/images/SampleOutputScreen.png)
 
 ### Search Results
 
-![Image Not Found](/images/SearchOutputScreen.PNG)
+![Image Not Found](/images/SearchOutputScreen.png)
 
 ### Favourite Results
 
-![Image Not Found](/images/FavouriteMovies_Output_Screen.PNG)
+![Image Not Found](/images/FavouriteMovies_Output_Screen.png)
 
 ### Instructions
 
