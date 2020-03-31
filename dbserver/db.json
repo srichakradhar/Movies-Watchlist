@@ -1,0 +1,19 @@
+{
+  "movies": [
+
+    /* Add the movie objects with the below mentioned movie object
+     {
+      "id": 1,
+      "title": "Blood Shot",
+      "description": "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name",
+      "director": "David S.F. Wilson",
+      "rating": "4.5",
+      "posterImageUrl": "../images/bloodshot.jpg"
+    }
+    */
+   
+  ],
+  "favourites": [
+    
+  ]
+}

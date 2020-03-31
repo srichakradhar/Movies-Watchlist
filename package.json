@@ -1,0 +1,24 @@
+{
+  "name": "letsplaymusic-assignment",
+  "version": "1.0.0",
+  "description": "This assignment is to fetch the top artists from a specified country  and display in html page using Fetch API. Once the use clicks on the artist page , it has to display the artist top albums. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dbserver": "json-server dbserver/db.json"
+  },
+  "keywords": [
+    "fetch",
+    "api",
+    "async",
+    "programming",
+    "music",
+    "application"
+  ],
+  "author": "Madhu Samala",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.1",
+    "json-server": "^0.16.1"
+  }
+}
