@@ -1,19 +1,135 @@
 {
   "movies": [
-
-    /* Add the movie objects with the below mentioned movie object
-     {
+    {
       "id": 1,
+      "title": "Spider-Man: Into the Spider-Verse",
+      "description": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+      "director": "Bob Persichetti",
+      "rating": "8.4",
+      "posterImageUrl": "https://www.joblo.com/assets/images/joblo/posters/2018/11/Spider-Verse-poster-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "POKEMON Detective Pikachu",
+      "description": "In a world where people collect Pokémon to do battle, a boy comes across an intelligent talking Pikachu who seeks to be a detective.",
+      "director": "Rob Letterman",
+      "rating": "6.6",
+      "posterImageUrl": "https://www.joblo.com/assets/images/joblo/posters/2019/02/detective-pikachu-trailer-poster-main.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Toy Story 4",
+      "description": "When a new toy called \"Forky\" joins Woody and the gang, a road trip alongside old and new friends reveals how big the world can be for a toy.",
+      "director": "Josh Cooley",
+      "rating": "7.8",
+      "posterImageUrl": "https://www.joblo.com/assets/images/joblo/posters/2019/02/Dyow9RgX4AElAGN.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Captain Marvel",
+      "description": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
+      "director": "Anna Boden",
+      "rating": "6.9",
+      "posterImageUrl": "https://www.joblo.com/assets/images/joblo/posters/2019/02/captin-marvel-poster-international.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Spider-Man: Far From Home",
+      "description": "Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
+      "director": "Jon Watts",
+      "rating": "7.5",
+      "posterImageUrl": "https://www.joblo.com/assets/images/joblo/posters/2019/01/Spider-Man-Far-From-Home-poster-1.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Alita: Battle Angel",
+      "description": "A deactivated cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is.",
+      "director": "Robert Rodriguez",
+      "rating": "7.3",
+      "posterImageUrl": "https://www.joblo.com/assets/images/joblo/posters/2019/01/Alita-character-poster-1.jpg"
+    },
+    {
+      "id": 7,
       "title": "Blood Shot",
-      "description": "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name",
+      "description": "Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name.",
       "director": "David S.F. Wilson",
       "rating": "4.5",
-      "posterImageUrl": "../images/bloodshot.jpg"
+      "posterImageUrl": "images/bloodshot.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Human Capital",
+      "description": "The lives of two different families collide when their children begin a relationship that leads to a tragic accident.",
+      "director": "Marc Meyers",
+      "rating": "6.2",
+      "posterImageUrl": "images/humancapital.jpg"
+    },
+    {
+      "id": 9,
+      "title": "I Still Believe",
+      "description": "The true-life story of Christian music star Jeremy Camp and his journey of love and loss that looks to prove there is always hope.",
+      "director": " The Erwin Brothers",
+      "rating": "6.5",
+      "posterImageUrl": "images/istillbelieve.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Lost Girls",
+      "description": "Determined to find her missing daughter, a desperate woman launches a personal investigation that leads police to the unsolved cases of murdered sex workers.",
+      "director": "Liz Garbus",
+      "rating": "6.1",
+      "posterImageUrl": "images/lostgirls.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Onward",
+      "description": "Two elven brothers embark on a quest to bring their father back for one day.",
+      "director": "Dan Scanlon",
+      "rating": "7.4",
+      "posterImageUrl": "images/onward.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Resistance",
+      "description": "The story of mime Marcel Marceau and the French Resistance to save the lives of ten thousand orphans during World War II.",
+      "director": "Jonathan Jakubowicz",
+      "rating": "6.2",
+      "posterImageUrl": "images/resistance.jpg"
+    },
+    {
+      "id": 13,
+      "title": "The Call of the Wild",
+      "description": "A sled dog struggles for survival in the wilds of the Yukon.",
+      "director": "Chris Sanders",
+      "rating": "6.8",
+      "posterImageUrl": "images/TheCallWild.jpg"
+    },
+    {
+      "id": 14,
+      "title": "The Hunt",
+      "description": "Twelve strangers wake up in a clearing. They don't know they've been chosen - for a very specific purpose - The Hunt.",
+      "director": "David S.F. Wilson",
+      "rating": "4.5",
+      "posterImageUrl": "images/thehunt.jpg"
+    },
+    {
+      "id": 15,
+      "title": "The Invisible Man",
+      "description": "When Cecilia's abusive ex takes his own life and leaves her his fortune, Cecilia works to prove that she is being hunted by someone nobody can see.",
+      "director": "Leigh Whannell",
+      "rating": "7.1",
+      "posterImageUrl": "images/theinvisibleman.jpg"
     }
-    */
-   
   ],
   "favourites": [
-    
+    {
+      "id": "9"
+    },
+    {
+      "id": "10"
+    },
+    {
+      "id": "12"
+    }
   ]
 }

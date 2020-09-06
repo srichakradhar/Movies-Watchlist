@@ -8,3 +8,87 @@ error message color : #ff0800
 
 */
 
+.navbar-text {
+    width: 40%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.navbar-nav.navbar-center {
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.bg-dark {
+    background-color: #343a40!important;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+img {
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+img {
+    pointer-events: none;
+}
+
+.movie_card {
+    flex: 0 0 25rem;
+    padding: 0 !important;
+    margin: 14px;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.movie_card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 33rem;
+}
+
+.movie_info {
+    color: #5e5c5c;
+}
+
+.movie_info i {
+    font-size: 20px;
+}
+
+.card-title {
+    width: 80%;
+}
+
+.fav_button {
+    background-color: #ff3d49;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    right: 20px;
+    top: 500px;
+    font-size: 27px;
+    padding-left: 16px;
+    padding-top: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.movies-container {
+    margin: 5rem 5rem;
+}
+
+.favourite {
+    color: #f9a0a6;
+}
