@@ -3,7 +3,7 @@ const FAV_MOVIES_BACKEND_URL = "http://localhost:3000/favourites";
 let moviesList = [];
 let favMoviesList = [];
 let errorMessage;
-
+let loadFavourites = false;
 /*
    This function should call getMoviesFromBackend() 
    and store that in an the global array 
@@ -18,6 +18,7 @@ async function getMovies(favs) {
         url = 'http://localhost:3000/movies?id=' + favMovieIds.join('&id=');
         res = await fetch(url);
         moviesList = await res.json();
+        loadFavourites = true;
     }
     getMoviesFromBackend();
 }
@@ -28,7 +29,7 @@ async function getMovies(favs) {
 */
 
 async function getMoviesFromBackend(query) {
-    if (favMoviesList.length == 0) {
+    if (!loadFavourites) {
         try {
             let url = 'http://localhost:3000/movies' + (query ? ('?q=' + query) : '');
             let res = await fetch(url);
