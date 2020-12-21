@@ -10,7 +10,7 @@ let loadFavourites = false;
 */
 
 async function getMovies(favs) {
-    if (favs) {
+    if (favs) { // this is a favourites page
         let url = 'http://localhost:3000/favourites/';
         let res = await fetch(url);
         favMoviesList = await res.json();
